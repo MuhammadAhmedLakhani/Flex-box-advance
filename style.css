@@ -26,12 +26,13 @@ h1 {
 }
 
 .item2 {
+    background-color: mediumslateblue;
     display: flex;
 }
 
 .item2>.subitem {
 
-    background-color: rgb(164, 132, 89);
+    background-color:wheat;
     color: rgb(78, 67, 16);
     flex-grow: 1;
     margin: 10px;
