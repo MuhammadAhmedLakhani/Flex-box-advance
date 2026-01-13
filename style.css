@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     text-align: center;
 }
 
@@ -40,7 +40,7 @@ h1 {
 }
 
 .item3 {
-    background-color: mediumpurple;
+    background-color: lightseagreen;
 
 }
 
@@ -50,7 +50,7 @@ h1 {
 }
 
 .item5 {
-    background-color: darkblue;
+    background-color: lightseagreen;
 
 }
 
@@ -64,4 +64,72 @@ h1 {
 
 .item8 {
     background-color: lightseagreen;
+} */
+
+/* ---form css-- */
+
+
+
+.wrapper {
+    background-color: #eee;
+    list-style: none;
+    margin: 50px;
+    padding: 20px;
+}
+
+
+.wrapper li {
+    display: flex;
+    padding: 10px 0px;
+}
+
+
+.wrapper li label {
+    flex: 1;
+}
+
+@media screen and (min-width:300px) and (max-width:499px) {
+
+
+    .wrapper li {
+        flex-direction: column;
+    }
+
+    .wrapper li input {
+        flex: 1;
+    }
+}
+
+
+
+@media screen and (min-width:500px) {
+
+    .wrapper li input {
+        flex: 3;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+
+    .wrapper li input {
+        flex: 4;
+    }
+}
+
+
+
+@media screen and (min-width:992px) {
+
+    .wrapper li input {
+        flex: 6;
+    }
+}
+
+
+@media screen and (min-width:1200px) {
+
+    .wrapper li input {
+        flex: 8;
+    }
 }
