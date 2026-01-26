@@ -24,12 +24,13 @@ h1 {
     color: #fff;
     text-align: center;
     height: 50px;
-    width: 200px;
+
 }
 
 .item1 {
     background-color: orangered;
-    flex-shrink: 2;
+    flex: 0 1 200px;
+    /*    flex-grow:flex-shrink: flex-basis:  */
 }
 
 .item2 {
