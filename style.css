@@ -24,12 +24,12 @@ h1 {
     color: #fff;
     text-align: center;
     height: 50px;
+    width: 200px;
 }
 
 .item1 {
     background-color: orangered;
-    flex-basis: 200px;
-    flex-shrink: 0;
+    flex-shrink: 2;
 }
 
 .item2 {
@@ -43,7 +43,6 @@ h1 {
 
 .item4 {
     background-color: hotpink;
-    flex-grow: 1;
 }
 
 .item5 {
